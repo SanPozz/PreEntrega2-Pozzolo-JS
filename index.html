@@ -7,6 +7,8 @@
 
             <!-- CSS Link -->
     <link rel="stylesheet" href="./css/styles.css">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
     
             <!-- TAILWIND CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
@@ -21,16 +23,79 @@
             <nav>
                 <ul class="flex flex-direction-row space-x-8 px-4 pb-2">
                     <li><a href="./index.html" class="text-neutral-50 hover:text-rose-600 font-bold">Inicio</a></li>
-                    <li><a href="./pages/carrito.html" class="text-neutral-50 hover:text-rose-600 font-bold"> Carrito</a></li>
+                    <!-- <li><a href="./pages/carrito.html" class="text-neutral-50 hover:text-rose-600 font-bold"> Carrito</a></li> -->
                     <li><a href="./pages/agregarItem.html" class="text-neutral-50 hover:text-rose-600 font-bold">Agregar Item</a></li>
                 </ul>
             </nav>
+            
         </div>
+        
     </header>
 
-    <main class="bg-slate-100 h-screen">
+    <main class="bg-slate-100 h-fit">
         <h2 class="text-3xl font-bold text-center py-3">Productos</h2>
-        <!-- ACA IRIAN LOS PRODUCTOS [CARDS] INSERTADOS MEDIANTE DOM -->
+        <div id="lista-productos" class="flex flex-wrap justify-center">
+            <div class="card border-2 border-violet-800 rounded-lg">
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/455853/FB1832_001_A_PREM.jpg?v=638149332164630000" alt="">
+                <h4 class="title">Nike Terminator High OG</h4>
+                <p class="price text-rose-800">$2000</p>
+                <button class="btnAgregar" type="submit" data-id="1">Agregar al Carrito</button>
+            </div>
+            <div class="card border-2 border-violet-800 rounded-lg">
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/164958/DM9014_003_C_PREM-hei-3144-wid-3144-fmt.jpg?v=638088718221970000" alt="">
+                <h4 class="title">Air Jordan 5 Retro</h4>
+                <p class="price text-rose-800">$2600</p>
+                <button class="btnAgregar" type="submit" data-id="2">Agregar al Carrito</button>
+            </div>
+            <div class="card border-2 border-violet-800 rounded-lg">
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/411543/DH4759_001_E_PREM.jpg?v=638143215357300000" alt="">
+                <h4 class="title">Nike Nike Air Max 97 SE</h4>
+                <p class="price text-rose-800">$2500</p>
+                <button class="btnAgregar" type="submit" data-id="3">Agregar al Carrito</button>
+            </div>
+            <div class="card border-2 border-violet-800 rounded-lg">
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/158179/DH7440_100_A_PREM-hei-3144-wid-3144-fmt.jpg?v=638086315845370000" alt="">
+                <h4 class="title">Nike Air Force 1 39</h4>
+                <p class="price text-rose-800">$1400</p>
+                <button class="btnAgregar" type="submit" data-id="4">Agregar al Carrito</button>
+            </div>
+            <div class="card border-2 border-violet-800 rounded-lg">
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/157439/555088_706_A_PREM-hei-3144-wid-3144-fmt.jpg?v=638086305717400000" alt="">
+                <h4 class="title">Air Jordan 1 Retro High OG</h4>
+                <p class="price text-rose-800">$1800</p>
+                <button class="btnAgregar" type="submit" data-id="5">Agregar al Carrito</button>
+            </div>
+            <div class="card border-2 border-violet-800 rounded-lg">
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/157439/555088_706_A_PREM-hei-3144-wid-3144-fmt.jpg?v=638086305717400000" alt="">
+                <h4 class="title">Air Jordan 1 Retro High OG</h4>
+                <p class="price text-rose-800">$1800</p>
+                <button class="btnAgregar" type="submit" data-id="6">Agregar al Carrito</button>
+            </div>
+            <div class="card border-2 border-violet-800 rounded-lg">
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/157439/555088_706_A_PREM-hei-3144-wid-3144-fmt.jpg?v=638086305717400000" alt="">
+                <h4 class="title">Air Jordan 1 Retro High OG</h4>
+                <p class="price text-rose-800">$1800</p>
+                <button class="btnAgregar" type="submit" data-id="7">Agregar al Carrito</button>
+            </div>
+            <div class="card border-2 border-violet-800 rounded-lg">
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/157439/555088_706_A_PREM-hei-3144-wid-3144-fmt.jpg?v=638086305717400000" alt="">
+                <h4 class="title">Air Jordan 1 Retro High OG</h4>
+                <p class="price text-rose-800">$1800</p>
+                <button class="btnAgregar" type="submit" data-id="8">Agregar al Carrito</button>
+            </div>
+            <br>
+            <div>
+                <h2 class="text-3xl font-bold text-center py-3"> Mi Carrito</h2>
+
+                <div id="carrito">
+                    <div class="" id="lista-carrito">
+                    </div>
+                    <div class="flex justify-center">
+                        <button type="submit" class="h-20 w-80 text-lg m-8 rounded-md border-2 border-violet-800 btn-vaciar-carrito">Vaciar Carrito</button>
+                    </div>
+                </div>
+            </div>
+
     </main>
 
     <footer class="bg-neutral-950">
@@ -43,6 +108,8 @@
 
     </footer>
 
-    <script src="./js/carrito.js"></script>
+    <!-- <script src="./js/carrito.js"></script> -->
+    <script src="./js/carritoentrega2.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
 </html>
