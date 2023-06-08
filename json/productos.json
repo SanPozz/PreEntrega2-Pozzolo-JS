@@ -1,0 +1,51 @@
+
+[
+    {
+        "price": 2000,
+        "id": 1,
+        "title": "Nike Terminator High OG",
+        "imgURL": "https://nikearprod.vtexassets.com/arquivos/ids/455853/FB1832_001_A_PREM.jpg?v=638149332164630000"
+    },
+    {
+        "price": 2600,
+        "id": 2,
+        "title": "Air Jordan 5 Retro",
+        "imgURL": "https://nikearprod.vtexassets.com/arquivos/ids/164958/DM9014_003_C_PREM-hei-3144-wid-3144-fmt.jpg?v=638088718221970000"
+    },
+    {
+        "price": 2500,
+        "id": 3,
+        "title": "Nike Nike Air Max 97 SE",
+        "imgURL": "https://nikearprod.vtexassets.com/arquivos/ids/411543/DH4759_001_E_PREM.jpg?v=638143215357300000"
+    },
+    {
+        "price": 1400,
+        "id": 4,
+        "title": "Nike Air Force 1 39",
+        "imgURL": "https://nikearprod.vtexassets.com/arquivos/ids/158179/DH7440_100_A_PREM-hei-3144-wid-3144-fmt.jpg?v=638086315845370000"
+    },
+    {
+        "price": 1800,
+        "id": 5,
+        "title": "Air Jordan 1 Retro High OG",
+        "imgURL": "https://nikearprod.vtexassets.com/arquivos/ids/157439/555088_706_A_PREM-hei-3144-wid-3144-fmt.jpg?v=638086305717400000"
+    },
+    {
+        "price": 3000,
+        "id": 6,
+        "title": "Nike Air More Uptempo '96",
+        "imgURL": "https://nikearprod.vtexassets.com/arquivos/ids/531890-1000-1000?v=1772546672&width=1000&height=1000&aspect=true"
+    },
+    {
+        "price": 2000,
+        "id": 7,
+        "title": "Nike SB Dunk High Pro",
+        "imgURL": "https://nikearprod.vtexassets.com/arquivos/ids/587751-1000-1000?v=1772414849&width=1000&height=1000&aspect=true"
+    },
+    {
+        "price": 1800,
+        "id": 8,
+        "title": "Nike Air Force 1 39",
+        "imgURL": "https://nikearprod.vtexassets.com/arquivos/ids/158165-1000-1000?v=1772498540&width=1000&height=1000&aspect=true"
+    }
+]
